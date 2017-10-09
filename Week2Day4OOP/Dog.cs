@@ -20,7 +20,7 @@ namespace Week2Day4OOP
             get { return this.furLength; }
             set { this.furLength = value; }
         }
-        public float Heigth
+        public float Height
         {
             get { return this.height; }
             set { this.height = value; }
@@ -52,7 +52,7 @@ namespace Week2Day4OOP
         //Methods
         public void Run()
         {
-            speed = "getting faster.";
+            speed = "Damn! You fast, dog!";
             weight--; //weight goes down by 1 everytime dog runs because exersize and simple logic when explaining. just go w/ it.
         }
 
