@@ -12,7 +12,7 @@ namespace Week2Day4OOP
         private string furLength;
         private float height;
         private string speed;
-        private int weight;
+        private double weight;
 
         //Properties
         public string FurLength
@@ -30,7 +30,7 @@ namespace Week2Day4OOP
             get { return this.speed; }
             set { this.speed = value; }
         }
-        public int Weight
+        public double Weight
         {
             get { return this.weight; }
             set { this.weight = value; }
@@ -42,11 +42,37 @@ namespace Week2Day4OOP
 
         }
 
-        //Overlaoded Constructor
+        //Overlaoded Constructor //Totally random but ctrl+K+D oraganizes shit yo
         public Dog(string furLength, float height)
         {
             this.furLength = furLength;
-            this.height = height; 
+            this.height = height;
         }
+
+        //Methods
+        public void Run()
+        {
+            speed = "getting faster.";
+            weight--; //weight goes down by 1 everytime dog runs because exersize and simple logic when explaining. just go w/ it.
+        }
+
+        public void Bark()
+        {
+            Console.WriteLine("\a"); //Again...simplified logic. Just go with it.
+        }
+
+        public void Potty()
+        {
+            weight = weight - 0.1; //Poopy time
+        }
+
+        public void Groom()
+        {
+            furLength = "All cleaned up, pupper!";
+        }
+
+
+
+
     }
 }
