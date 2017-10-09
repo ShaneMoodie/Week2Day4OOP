@@ -10,6 +10,7 @@ namespace Week2Day4OOP
     {
         static void Main(string[] args)
         {
+            //KTTY STUFF
             //    Cat mittens = new Cat();
             //    mittens.Name = "Mittens";
 
@@ -23,21 +24,71 @@ namespace Week2Day4OOP
 
             //    mittens.WorkOut();
 
-            Dog firstDoge = new Dog();
 
-            firstDoge.Weight = 60.00;
-            firstDoge.Height = 3.2f;
-            firstDoge.FurLength = "flowing mane";
-            firstDoge.Speed = "Fast AF.";
+            //DOG STUFF
+            //Dog firstDoge = new Dog();
 
-            firstDoge.Groom();
-            Console.WriteLine(firstDoge.FurLength);
+            //firstDoge.Weight = 60.00;
+            //firstDoge.Height = 3.2f;
+            //firstDoge.FurLength = "flowing mane";
+            //firstDoge.Speed = "Fast AF.";
 
-            firstDoge.Run();
-            Console.WriteLine("The dog now weighs " + firstDoge.Weight);
-            Console.WriteLine(firstDoge.Speed);
+            //firstDoge.Groom();
+            //Console.WriteLine(firstDoge.FurLength);
 
-            firstDoge.Bark();
+            //firstDoge.Run();
+            //Console.WriteLine("The dog now weighs " + firstDoge.Weight);
+            //Console.WriteLine(firstDoge.Speed);
+
+            //firstDoge.Bark(); 
+
+            //MORE DOG STUFF
+            //Dog tikiDoge = new Dog("Tiki", 2.5f);
+
+            //Console.WriteLine(tikiDoge.FurLength);
+
+            //tikiDoge.Groom();
+
+            //Console.WriteLine(tikiDoge.FurLength);
+
+            //tikiDoge.Speed = "Ludacris speed!!!"; //set newly set speed to ludacris
+
+            //Console.WriteLine(tikiDoge.Speed); //prints ludacris
+
+            //tikiDoge.Run();
+
+            //Console.WriteLine(tikiDoge.Speed); //pulls from predifined "Speed" in Dog.cs (Damn! You fast, dog!)
+
+            //tikiDoge.Weight = 40.00;
+
+            //Console.WriteLine(tikiDoge.Weight);
+
+            //tikiDoge.Potty();
+
+            //Console.WriteLine(tikiDoge.Weight);
+
+            //tikiDoge.Bark();
+
+            //Superhero practice problem
+            Superhero superHeroMan = new Superhero("Super Hero-Man");
+
+            Console.WriteLine(superHeroMan.Name + ":");
+
+            superHeroMan.HasCape = "Super Hero-Man has a cape!";
+
+            Console.WriteLine(superHeroMan.HasCape);
+
+            superHeroMan.WearsMask = "Super Hero-Man wears a mask!";
+
+            Console.WriteLine(superHeroMan.WearsMask);
+
+            superHeroMan.PowerLevel = 9000;
+
+            Console.WriteLine("Super Hero-Man's current power level is :" + superHeroMan.PowerLevel);
+
+            superHeroMan.PowerUp();
+
+            Console.WriteLine("Super Hero-Man is knocking evil-doers left and right!\nHis power level has risen to: " + superHeroMan.PowerLevel);
         }
     }
 }
